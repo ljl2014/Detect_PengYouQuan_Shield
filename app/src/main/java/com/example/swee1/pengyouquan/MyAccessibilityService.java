@@ -31,13 +31,13 @@ public class MyAccessibilityService extends AccessibilityService {
     private myDB helper;
     private AccessibilityNodeInfo nodeInfoTmp;
     private int jumpTime = 700;
-    private String tongXunLuId = "com.tencent.mm:id/bw3";
-    private String listViewId = "com.tencent.mm:id/hv";
-    private String scanOverId = "com.tencent.mm:id/aft";
-    private String backButtonId = "com.tencent.mm:id/h6";
-    private String friendNicknameId = "android:id/text1";
-    private String dayLimitId = "com.tencent.mm:id/cuo";
-    private String shieldId = "com.tencent.mm:id/a1s";
+    private String tongXunLuId = "com.tencent.mm:id/bwj"; // clickable child
+    private String listViewId = "com.tencent.mm:id/i2";  // ListView
+    private String scanOverId = "com.tencent.mm:id/agp";  // xxx位联系人，over scan
+    private String backButtonId = "com.tencent.mm:id/hc"; // clickable
+    private String friendNicknameId = "android:id/text1"; // in detail page nickname
+    private String dayLimitId = "com.tencent.mm:id/cuw";  // TextView
+    private String shieldId = "com.tencent.mm:id/a2q";  // LinearLayout
 
     @Override
     protected void onServiceConnected() {
